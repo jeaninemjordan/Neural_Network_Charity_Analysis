@@ -78,4 +78,4 @@ In the end, the accuracy rate was only increased to 73.4%.
 
 ### Conclusion
 
-The optimization attempt to increase the model’s predictive accuracy to 75% or higher was unsuccessful in this analysis. In a further examination, using the RandomForestClassifier could yield better results if attempted again. The numbers of neurons and hidden layers could be adjusted to . It is possible that the input data needs to be reevaluated in case there are outliers or other variables that could be skewing the model’s accuracy. 
+The optimization attempt to increase the model’s predictive accuracy to 75% or higher was unsuccessful in this analysis. Conducting a further examination using the RandomForestClassifier could possibly yield better results if attempted in the future. It is possible that the input data needs to be reevaluated in case there are outliers or other variables that could be skewing the model’s accuracy, or that alternate activation functions should be explored. 
