@@ -10,7 +10,7 @@ Investors are always looking for ways to invest responsibly in organizations tha
 
 Neural networks are computing systems designed after the biological neural networks inside mammal brains. They are a subcategory of machine learning that uses deep-learning algorithms to operate. Neural networks are comprised of node layers, containing an input layer, hidden layers and an output later. Each node connects to another node and has an associated weight and threshold. When the output of a node exceeds the given threshold, the node is activated is passed to the next layer in the network. These networks rely on training data to learn and improve accuracy over time. When the algorithms are modified for accuracy, neural networks cluster and classify data at a high velocity. 
 
-![](Images/neuralnetwork.jpg)
+![](Images/neuralnetworkimage.jpg)
 
 ### Resources
 
@@ -40,9 +40,9 @@ The list of categorical values was then generated and encoded using OneHotEncode
 
 The preprocessed data was then split into feature and target arrays. The target variable in this model is the IS_SUCCESSFUL column. The feature variables are the APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, and ASK_AMT columns. 
 
-![](Images/variabletypes.jpg)
+![](Images/varabletypes.jpg)
 
-![](Images/targetfeatures.jpg)
+![](Images/targetfeature.jpg)
 
 The numerical variables were standardized using the StandardScaler function. 
 
@@ -66,7 +66,7 @@ The model was then exported to an HDF5 file and saved within the repository fold
 
 ![](Images/exportmodel.jpg)
 
-An effort was made to optimize the model to 75% or higher. To do this, the number of neurons in the first hidden layer were increased from 8 to 12 and the neurons in the second hidden layer were increased from 2 to 6. The number of epochs were also increased from 50 to 100.   
+An effort was made to optimize the model to 75% or higher. To do this, the number of neurons in the first hidden layer were increased from 8 to 12 and the neurons in the second hidden layer were increased from 5 to 6. The number of epochs were also increased from 50 to 100.   
 
 ![](Images/optimizedmodel.jpg)
 
