@@ -48,7 +48,7 @@ The numerical variables were standardized using the StandardScaler function.
 
 ![](Images/scale.jpg)
 
-The model was defined, and the number of input features and hidden nodes for each layer were entered. Rectified Linear Unit (ReLU) was used as the activation function for both the first and second hidden layers. The sigmoid activation function was used as the output layer. 
+The model was defined, and the number of input features and hidden nodes for each layer were entered. Rectified Linear Unit (ReLU) was used as the activation function for both the first and second hidden layers. ReLU is a linear function that outputs the input directly if it is positive or otherwise outputs zero values. It is the default activation function many varieties of neural networks because models that use it are often easier to train and achieve better performance. The sigmoid activation function was used as the output layer. The sigmoid function takes a real value as an input and outputs it in the range of 0 to 1.
 
 ![](Images/relusigmoidcode.jpg)
 
@@ -78,4 +78,4 @@ In the end, the accuracy rate was only increased to 73.4%.
 
 ### Conclusion
 
-The optimization attempt to increase the model’s predictive accuracy to 75% or higher was unsuccessful in this analysis. Conducting a further examination using the RandomForestClassifier could possibly yield better results if attempted in the future. It is possible that the input data needs to be reevaluated in case there are outliers or other variables that could be skewing the model’s accuracy, or that alternate activation functions should be explored. 
+The optimization attempt to increase the model’s predictive accuracy to 75% or higher was unsuccessful in this analysis. Conducting a further examination using the Random Forest Classifier could possibly yield better results if attempted in the future. The Random Forest Classifier consists of a large number of decision trees operating as an ensemble. Each tree in the forest returns a class prediction and the class with the highest count becomes the model's prediction. Alternate activation  functions should be explored. It is also possible that the input data needs to be reevaluated in case there are outliers or other variables that could be skewing the model’s accuracy. 
