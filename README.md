@@ -52,7 +52,7 @@ The model was defined, and the number of input features and hidden nodes for eac
 
 ![](Images/relusigmoidcode.jpg)
 
-While training the model, a callback saves the model's weights every 5 epochs. 
+While training the model, a callback saves the model's weights every 5 epochs. A new directory was created where the weights were saved as checkpoints in the repository folder.   
 
 ![](Images/callbacktosaveweights.jpg)
 
@@ -62,7 +62,7 @@ After the model training was completed, the loss and accuracy values were evalua
 
 ![](Images/evaluatemodel.jpg)
 
-The model was then exported to an HDF5 file and saved within the repository folder. 
+The model was then exported to an HDF5 file (Hierarchical Data Format version 5) and saved within the repository folder. 
 
 ![](Images/exportmodel.jpg)
 
